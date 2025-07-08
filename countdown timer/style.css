@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0;
+  background: linear-gradient(135deg, #32459c, #4c2f68);
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Countdown container */
+#countdown {
+  font-size: 2.5rem;
+  background: #222;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Each time segment */
+.time-segment {
+  display: inline-block;
+  margin: 0 10px;
+  min-width: 70px;
+}
+
+/* Numbers */
+.number {
+  font-weight: bold;
+  font-size: 3rem;
+  display: block;
+}
+
+/* Labels */
+.label {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #countdown {
+    font-size: 2rem;
+    padding: 15px 20px;
+  }
+
+  .time-segment {
+    display: block;
+    margin: 10px auto;
+    min-width: auto;
+  }
+
+  .number {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+#controls {
+  margin-top: 30px;
+}
+
+#controls button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #45a049;
+}
+
+#controls button:active {
+  background-color: #3e8e41;
+}
